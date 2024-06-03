@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dear❤Contact</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="contact.html" class="navbar-brand">Dear❤Contact</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link">My contacts</a>
+                    <a href="profile.html" class="nav-item nav-link">My profile</a>
+                    <a href="about.html" class="nav-item nav-link">About us</a>
+                </div>
+                <div class="navbar-nav ms-auto">              	
+                    <a href="login.html" class="nav-item nav-link">Login</a>
+                    <a href="#" class="nav-item nav-link active">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="container my-page">
+        <h1 class="my-header">Sign up</h1>
+    </div>
+    <form class="needs-validation login-form" novalidate>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label class="form-label" for="inputName">Name</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="col-md-6">
+                <label class="form-label" for="inputSurname">Surname</label>
+                <input type="text" class="form-control" id="inputSurname" placeholder="Surname" required>
+                <div class="invalid-feedback">Please enter your surname.</div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+            <div class="invalid-feedback">Please enter a valid email address.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Gender</label>
+            <div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="gender" id="male">
+                    <label class="form-check-label" for="male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="gender" id="female">
+                    <label class="form-check-label" for="female">Female</label>
+                </div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Date of Birth</label>
+            <div class="row g-2">
+                <div class="col-4">
+                    <select class="form-select">
+                        <option selected>Day</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <select class="form-select">
+                        <option selected>Month</option>
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                        <option>05</option>
+                        <option>06</option>
+                        <option>07</option>
+                        <option>08</option>
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <select class="form-select">
+                        <option selected>Year</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="inputPassword">Password</label>
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
+            <div class="invalid-feedback">Please enter your password.</div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-custom-but">Sign in</button>
+        </div>
+    </form>
+    
+    <footer class="bg-light py-3 sticky-bottom">
+        <div class="container d-flex justify-content-center align-items-center">
+            <p class="m-0">Copyright © 2024 by Victoria Us</p>
+        </div>
+    </footer>
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+</html>
