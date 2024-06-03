@@ -140,8 +140,8 @@ document.addEventListener('DOMContentLoaded', () => {
          loginForm.addEventListener('submit', (event) => {
              event.preventDefault();
  
-             const inputEmail = document.getElementById('inputEmail').value;
-             const inputPassword = document.getElementById('inputPassword').value;
+             const inputEmail = document.getElementById('inEmail').value;
+             const inputPassword = document.getElementById('inPassword').value;
  
              const storedUserData = localStorage.getItem('userData');
  
