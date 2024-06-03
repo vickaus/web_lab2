@@ -1,0 +1,107 @@
+.vertical-line {
+    border-right: 2px solid white;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.table-bordered td:nth-child(1){
+    width: 5%; 
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    footer {
+        text-align: center;
+    }
+}
+
+.my-page {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+.my-header {
+    font-size: 30px; 
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffffec; 
+    text-shadow: 0 0 10px #120505, 0 0 20px #000000, 0 0 30px #000000;
+}
+
+
+.my-table {
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px;
+}
+
+.my-table th {
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-table td {
+    text-align: center;
+}
+
+.rounded-circle {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+}
+
+.img-container {
+    text-align: center; 
+}
+
+.login-form {
+    width: 400px; 
+    margin: 0 auto; 
+}
+
+.button-al {
+    text-align: center;
+}
+
+.btn-group .btn {
+    margin-right: 5px; 
+    margin-left: 5px; 
+    width: 80px;
+    text-align: center;
+}
+.about-container {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); 
+}
+.btn-custom-but {
+    color: #fff;
+    background-color: #747373;
+    border-color: #1c1c1c;
+}
+.btn-add .btn {
+    margin-right: 5px; 
+    margin-left: 5px; 
+    width: 160px;
+    text-align: center;
+}
+
+.mb-4{
+    margin: 15px;
+    max-width: 90%;
+}
