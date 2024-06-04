@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 alert('Акаунт успішно створено!');
 
-                window.location.href = 'contact.html';
+                window.location.href = 'index.html';
             }
 
             registerForm.classList.add('was-validated');
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
                  if (userData.registered && inputEmail === userData.email && inputPassword === userData.password) {
                      alert('Вхід в акаунт успішний!');
-                     window.location.href = 'contact.html';
+                     window.location.href = 'index.html';
                  } else {
                      alert('Неправильний логін чи пароль. Спробуйте ще раз.');
                  }
